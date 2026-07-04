@@ -1,3 +1,6 @@
+**Heart Disease Risk Prediction System**
+
+A comprehensive **Machine Learning-based Heart Disease Risk Prediction System** that analyzes a patient's clinical parameters to estimate the likelihood of heart disease. The project compares multiple classification algorithms and selects **Logistic Regression** as the final model based on its performance, interpretability, and reliability. It features an interactive **Gradio-based web application** for real-time risk prediction, confidence scoring, and personalized clinical recommendations. The entire project—including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and deployment—was developed in **Google Colab** using the **UCI Heart Disease Dataset**.
 
 ## 🌐 Live Demo
 
@@ -239,13 +242,10 @@ This project is intended for **educational and research purposes only**. It is n
 
 ## 👤 Author
 
-**[Your Name]**
-- GitHub: [your-github-link]
-- LinkedIn: [your-linkedin-link]
-- Email: [your-email]
-
+**[DHARANIGA V.R]**
+- LinkedIn:[www.linkedin.com/in/dharaniga-v-r-abb485387]
+- Email: [dharanigaraj@gmail.com]
 ---
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use and modify it with attribution.
@@ -253,5 +253,4 @@ This project is licensed under the [MIT License](LICENSE) — feel free to use a
 
 <img width="1300" height="1038" alt="app_screenshot_red" src="https://github.com/user-attachments/assets/d8615459-60b5-4a4b-8f7f-d6fca9097242" /># ❤️ Heart Disease Risk Prediction System
 
-A machine learning system that predicts a patient's risk of heart disease from clinical parameters — including an interactive **Gradio-based web UI** for real-time predictions. Built, trained, and evaluated entirely in **Google Colab** using the classic UCI-style Heart Disease dataset.
 
