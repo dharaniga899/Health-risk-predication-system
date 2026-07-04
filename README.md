@@ -148,7 +148,6 @@ The `frontend_health_risk_prediction.ipynb` notebook wraps the trained Logistic 
   - Exercise-induced angina alert
   - General advisory for low-risk patients
 
-Predictions update **live** as sliders/dropdowns change, or on clicking **"🔍 Predict Heart Risk"**.
 
 ### Running the Gradio App
 
