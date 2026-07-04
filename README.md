@@ -1,12 +1,16 @@
 # ❤️ Heart Disease Risk Prediction System
 
-A machine learning system that predicts a patient's risk of heart disease from clinical parameters. Built, trained, and evaluated entirely in **Google Colab** using the classic UCI-style Heart Disease dataset.
+A machine learning system that predicts a patient's risk of heart disease from clinical parameters — including an interactive **Gradio-based web UI** for real-time predictions. Built, trained, and evaluated entirely in **Google Colab** using the classic UCI-style Heart Disease dataset.
 
 ---
 
 ## 📌 Overview
 
-This project compares **seven classification algorithms** on a heart disease dataset and selects **Logistic Regression** as the final production model based on its balance of accuracy, recall, and stability across cross-validation folds. The trained model, scaler, and feature schema are exported so predictions can be made on new patient data.
+This project has two parts:
+
+1. **Model training & comparison notebook** — compares **seven classification algorithms** and selects **Logistic Regression** as the final production model based on its balance of accuracy, recall, and stability across cross-validation folds.
+2. **Frontend notebook (Gradio app)** — a dark-themed, interactive web interface where a user enters a patient's clinical details (via sliders, dropdowns, and radio buttons) and instantly gets a heart disease risk prediction along with clinical recommendations.
+
 
 ---
 
@@ -19,6 +23,7 @@ This project compares **seven classification algorithms** on a heart disease dat
 | Data Handling | Pandas, NumPy |
 | Visualization | Matplotlib, Seaborn |
 | Machine Learning | Scikit-learn |
+| Frontend / UI | Gradio |
 | Model Persistence | Joblib, JSON |
 
 ---
@@ -119,7 +124,37 @@ Top features decreasing risk: `sex`, `ca`, `thal`, `exang`, `trestbps`, `oldpeak
 
 ---
 
-## 🚀 How to Run
+## 🖥️ Frontend — Interactive Gradio App
+
+The `frontend_health_risk_prediction.ipynb` notebook wraps the trained Logistic Regression model in a **dark-themed Gradio web interface** for real-time predictions — no coding needed to use it once launched.
+
+**Inputs (Patient Clinical Parameters):**
+- Age, Sex, Chest Pain Type, Resting Blood Pressure, Serum Cholesterol
+- Fasting Blood Sugar, Resting ECG, Maximum Heart Rate, Exercise-Induced Angina
+- ST Depression (Oldpeak), Slope, Number of Major Vessels, Thalassemia Type
+
+**Outputs:**
+- 🔍 **Prediction Report** — risk result, confidence %, disease/no-disease probability, and key vitals summary
+- 💡 **Clinical Recommendations** — dynamic advice based on the input values, e.g.:
+  - High cholesterol / blood pressure warnings
+  - Low max heart rate flag
+  - Exercise-induced angina alert
+  - General advisory for low-risk patients
+
+Predictions update **live** as sliders/dropdowns change, or on clicking **"🔍 Predict Heart Risk"**.
+
+### Running the Gradio App
+
+1. Open `frontend_health_risk_prediction.ipynb` in Google Colab.
+2. Run the single cell — it installs Gradio, trains all 7 models on the built-in dataset (no Drive mount needed), and launches the app inline:
+   ```python
+   demo.launch(debug=False, inline=True, share=False)
+   ```
+3. To get a public shareable link instead of an inline Colab preview, change to `share=True`.
+
+---
+
+## 🚀 How to Run — Training Notebook
 
 1. Open `Health_risk_predication_system3008Untitled0__1_.ipynb` in Google Colab.
 2. Upload `heart.csv` to your Google Drive (default expected path in the notebook):
@@ -161,14 +196,23 @@ Disease Prob: 83.59%  |  No Disease Prob: 16.41%
 ## 📁 Project Structure
 
 ```
-heart-disease-risk-prediction/
+Health-risk-predication-system/
 │
-├── Health_risk_predication_system3008Untitled0__1_.ipynb   # Main Colab notebook
-├── heart.csv                                                # Dataset
-├── heart_lr_model.pkl                                       # Saved Logistic Regression model (generated)
-├── heart_lr_scaler.pkl                                      # Saved StandardScaler (generated)
-├── heart_lr_feature_columns.json                            # Feature column order (generated)
-└── README.md                                                # Project documentation
+├── notebooks/
+│   ├── Health_risk_predication_system3008Untitled0__1_.ipynb   # Model training & comparison
+│   └── frontend_health_risk_prediction.ipynb                    # Gradio UI app
+│
+├── data/
+│   └── heart.csv                                                 # Dataset
+│
+├── models/                                                       # Saved model artifacts (generated)
+│   ├── heart_lr_model.pkl
+│   ├── heart_lr_scaler.pkl
+│   └── heart_lr_feature_columns.json
+│
+├── requirements.txt                                              # Python dependencies
+├── LICENSE                                                       # MIT License
+└── README.md                                                     # Project documentation
 ```
 
 ---
@@ -190,9 +234,10 @@ This project is intended for **educational and research purposes only**. It is n
 ---
 
 ## 👤 Author
-DHARANIGA V.R
----
 
+**[Your Name]**
+- DHARANIGA V.R
+---
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use and modify it with attribution.
