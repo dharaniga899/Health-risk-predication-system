@@ -4,6 +4,12 @@ A machine learning system that predicts a patient's risk of heart disease from c
 
 ---
 
+## 🌐 Live Demo
+
+Try the app live on Hugging Face Spaces: **[Heart Disease Risk Prediction](https://huggingface.co/spaces/Dharaniga3008/Heart-disease-risk-prediction)**
+
+---
+
 ## 📌 Overview
 
 This project has two parts:
@@ -128,6 +134,8 @@ Top features decreasing risk: `sex`, `ca`, `thal`, `exang`, `trestbps`, `oldpeak
 
 The `frontend_health_risk_prediction.ipynb` notebook wraps the trained Logistic Regression model in a **dark-themed Gradio web interface** for real-time predictions — no coding needed to use it once launched.
 
+![Health Risk Prediction System UI](images/app_screenshot_red.png)
+
 **Inputs (Patient Clinical Parameters):**
 - Age, Sex, Chest Pain Type, Resting Blood Pressure, Serum Cholesterol
 - Fasting Blood Sugar, Resting ECG, Maximum Heart Rate, Exercise-Induced Angina
@@ -234,8 +242,14 @@ This project is intended for **educational and research purposes only**. It is n
 ---
 
 ## 👤 Author
-- DHARANIGA V.R
+
+**[Your Name]**
+- GitHub: [your-github-link]
+- LinkedIn: [your-linkedin-link]
+- Email: [your-email]
+
 ---
+
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use and modify it with attribution.
