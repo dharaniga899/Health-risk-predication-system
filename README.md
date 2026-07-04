@@ -1,4 +1,4 @@
-# ❤️ Heart Disease Risk Prediction System
+<img width="1300" height="1038" alt="app_screenshot_red" src="https://github.com/user-attachments/assets/d8615459-60b5-4a4b-8f7f-d6fca9097242" /># ❤️ Heart Disease Risk Prediction System
 
 A machine learning system that predicts a patient's risk of heart disease from clinical parameters — including an interactive **Gradio-based web UI** for real-time predictions. Built, trained, and evaluated entirely in **Google Colab** using the classic UCI-style Heart Disease dataset.
 
@@ -133,8 +133,9 @@ Top features decreasing risk: `sex`, `ca`, `thal`, `exang`, `trestbps`, `oldpeak
 ## 🖥️ Frontend — Interactive Gradio App
 
 The `frontend_health_risk_prediction.ipynb` notebook wraps the trained Logistic Regression model in a **dark-themed Gradio web interface** for real-time predictions — no coding needed to use it once launched.
+ 
 
-![Health Risk Prediction System UI](images/app_screenshot_red.png)
+
 
 **Inputs (Patient Clinical Parameters):**
 - Age, Sex, Chest Pain Type, Resting Blood Pressure, Serum Cholesterol
