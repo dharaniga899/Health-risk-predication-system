@@ -234,8 +234,6 @@ This project is intended for **educational and research purposes only**. It is n
 ---
 
 ## 👤 Author
-
-**[Your Name]**
 - DHARANIGA V.R
 ---
 ## 📄 License
