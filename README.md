@@ -1,6 +1,6 @@
 **Heart Disease Risk Prediction System**
 
-A comprehensive **Machine Learning-based Heart Disease Risk Prediction System** that analyzes a patient's clinical parameters to estimate the likelihood of heart disease. The project compares multiple classification algorithms and selects **Logistic Regression** as the final model based on its performance, interpretability, and reliability. It features an interactive **Gradio-based web application** for real-time risk prediction, confidence scoring, and personalized clinical recommendations. The entire project—including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and deployment—was developed in **Google Colab** using the **UCI Heart Disease Dataset**.
+A comprehensive **Machine Learning-based Heart Disease Risk Prediction System** that analyzes a patient's clinical parameters to estimate the likelihood of heart disease. The project compares multiple classification algorithms and selects **Logistic Regression** as the final model based on its performance, interpretability, and reliability. It features an interactive **Gradio-based web application** for real-time risk prediction, confidence scoring, and personalized clinical recommendations. The entire project—including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and deployment—was developed in **Google Colab** using the Heart Disease Dataset**.
 
 ## 🌐 Live Demo
 
