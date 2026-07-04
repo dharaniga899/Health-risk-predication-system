@@ -205,20 +205,20 @@ Disease Prob: 83.59%  |  No Disease Prob: 16.41%
 Health-risk-predication-system/
 │
 ├── notebooks/
-│   ├── Health_risk_predication_system3008Untitled0__1_.ipynb   # Model training & comparison
-│   └── frontend_health_risk_prediction.ipynb                    # Gradio UI app
+│   ├── Health_risk_predication_system3008Untitled0__1_.ipynb   
+│   └── frontend_health_risk_prediction.ipynb                    
 │
 ├── data/
-│   └── heart.csv                                                 # Dataset
+│   └── heart.csv                                                
 │
-├── models/                                                       # Saved model artifacts (generated)
+├── models/                                                       
 │   ├── heart_lr_model.pkl
 │   ├── heart_lr_scaler.pkl
 │   └── heart_lr_feature_columns.json
 │
-├── requirements.txt                                              # Python dependencies
-├── LICENSE                                                       # MIT License
-└── README.md                                                     # Project documentation
+├── requirements.txt                                            
+├── LICENSE                                                       
+└── README.md                                                
 ```
 
 ---
