@@ -250,7 +250,8 @@ This project is intended for **educational and research purposes only**. It is n
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use and modify it with attribution.
 
+❤️ Heart Disease Risk Prediction System
+## 📸 Application Preview
 
-<img width="1300" height="1038" alt="app_screenshot_red" src="https://github.com/user-attachments/assets/d8615459-60b5-4a4b-8f7f-d6fca9097242" /># ❤️ Heart Disease Risk Prediction System
-
+<img width="1300" height="1038" alt="app_screenshot_red" src="https://github.com/user-attachments/assets/d8615459-60b5-4a4b-8f7f-d6fca9097242" /># 
 
