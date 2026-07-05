@@ -209,12 +209,7 @@ Health-risk-predication-system/
 │   └── frontend_health_risk_prediction.ipynb                    # Gradio UI app
 │
 ├── data/
-│   └── heart.csv                                                 # Dataset
-│
-├── models/                                                       # Saved model artifacts (generated)
-│   ├── heart_lr_model.pkl
-│   ├── heart_lr_scaler.pkl
-│   └── heart_lr_feature_columns.json
+│   └── heart.csv                                                 # Datasets
 │
 ├── requirements.txt                                              # Python dependencies
 ├── LICENSE                                                       # MIT License
